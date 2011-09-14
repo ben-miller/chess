@@ -1,0 +1,8 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="Pieces",height=0.2,width=0.4,color="black",URL="$d4/d73/classPieces.html",tooltip="A class that instantiates and/or points to each piece on a chess board."];
+}

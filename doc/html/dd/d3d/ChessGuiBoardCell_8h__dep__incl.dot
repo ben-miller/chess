@@ -1,0 +1,16 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ChessGuiBoardCell.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ChessGuiBoard.h",height=0.2,width=0.4,color="black",URL="$d8/df7/ChessGuiBoard_8h.html",tooltip="Midlevel container widget for the CS 240 Chess project GUI."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ChessGui.h",height=0.2,width=0.4,color="black",URL="$d3/d2f/ChessGui_8h.html",tooltip="Toplevel widget of the cs240 Chess project GUI frontend."];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Chess.h",height=0.2,width=0.4,color="black",URL="$dc/d1b/Chess_8h.html",tooltip="Interface for the Chess class."];
+  Node3 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ChessView.h",height=0.2,width=0.4,color="black",URL="$d1/d4c/ChessView_8h.html"];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

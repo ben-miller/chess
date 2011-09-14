@@ -1,0 +1,8 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="ChessGame",height=0.2,width=0.4,color="black",URL="$de/d7b/classChessGame.html",tooltip="Main interface for the backend implementation of the chess game."];
+}
